@@ -17,8 +17,6 @@ server.post("/videos", (request, reply) => {
     duration: duration,
   })
 
-  console.log(database.list())
-
   return reply.status(201).send()
 })
 
